@@ -1,0 +1,101 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.orange-color{
+    color:rebeccapurple;
+}
+.Flexiable{
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.Link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    width: 80px;
+    padding:5px;
+    font-size: 20px;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: 30px;
+    color: slategrey;
+}
+.New-section{
+    display: flex;
+    padding-top: 100px;
+
+}
+.about{
+    color: rgb(189, 68, 20);
+    font-weight: bolder;
+}
+.Extra{
+    text-decoration: none;
+    font-size: 20px;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    margin: 40px;
+    color: white;
+    padding: 10px;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.border-area{
+    padding: 10px;
+}
+
+.services-area{
+    margin-bottom: 100px;
+    
+    
+}
+
+.width-area{
+    width: 23%;
+    float: left;
+    margin: 0 5%;
+    padding: 2px;
+    box-shadow: 10px 10px 10px gray;
+    
+}
+.Service-design{
+    text-align: center;
+    color: indigo;
+    margin-top: 100px;
+
+}
+.design{
+    color: indigo;
+    text-align: center;
+    border: 5px dotted indigo;
+    border-radius: 100px;
+    background: #cc2b5e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: khaki;
+}
